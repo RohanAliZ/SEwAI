@@ -1,0 +1,355 @@
+HTML
+│
+├── 1. 🏗️ DOCUMENT STRUCTURE
+│   ├── <!DOCTYPE html>   → Declares HTML5
+│   ├── <html>            → Root of the document
+│   ├── <head>            → Page information
+│   └── <body>            → Visible page content
+│
+├── 2. 🧠 HEAD / METADATA
+│   ├── <title>           → Browser tab title
+│   ├── <meta>            → Metadata
+│   ├── <link>            → External resources
+│   ├── <style>           → Internal CSS
+│   ├── <script>          → JavaScript
+│   ├── <base>            → Base URL
+│   └── <noscript>        → Fallback when JS is unavailable
+│
+├── 3. 📝 TEXT CONTENT
+│   ├── <h1>–<h6>         → Headings
+│   ├── <p>               → Paragraph
+│   ├── <br>              → Line break
+│   ├── <hr>              → Thematic break
+│   ├── <strong>          → Strong importance
+│   ├── <em>              → Emphasis
+│   ├── <b>               → Attention
+│   ├── <i>               → Alternate voice/term
+│   ├── <u>               → Annotation
+│   ├── <mark>            → Highlight
+│   ├── <small>           → Small print
+│   ├── <s>               → No longer accurate
+│   ├── <del>             → Deleted text
+│   ├── <ins>             → Inserted text
+│   ├── <sub>             → Subscript
+│   └── <sup>             → Superscript
+│
+├── 4. 🔗 LINKS & NAVIGATION
+│   ├── <a>               → Hyperlink
+│   └── <nav>             → Navigation area
+│
+├── 5. 🖼️ IMAGES
+│   ├── <img>             → Image
+│   ├── <picture>         → Responsive image container
+│   ├── <source>          → Alternative source
+│   ├── <figure>          → Media/content figure
+│   └── <figcaption>      → Figure caption
+│
+├── 6. 📦 GENERIC CONTAINERS
+│   ├── <div>             → Block container
+│   └── <span>            → Inline container
+│
+├── 7. 📋 LISTS
+│   ├── <ul>              → Unordered list
+│   │   └── <li>          → List item
+│   ├── <ol>              → Ordered list
+│   │   └── <li>          → List item
+│   └── <dl>              → Description list
+│       ├── <dt>          → Term
+│       └── <dd>          → Description
+│
+├── 8. 📊 TABLES
+│   ├── <table>           → Table
+│   ├── <caption>         → Table title
+│   ├── <colgroup>        → Column group
+│   ├── <col>             → Column definition
+│   ├── <thead>           → Header rows
+│   ├── <tbody>           → Main rows
+│   ├── <tfoot>           → Footer rows
+│   ├── <tr>              → Table row
+│   ├── <th>              → Header cell
+│   └── <td>              → Data cell
+│
+├── 9. ✍️ FORMS
+│   ├── <form>            → Form container
+│   ├── <label>           → Field label
+│   ├── <input>           → Input control
+│   ├── <textarea>        → Multi-line input
+│   ├── <select>          → Drop-down
+│   ├── <option>          → Drop-down option
+│   ├── <optgroup>        → Groups options
+│   ├── <button>          → Button
+│   ├── <fieldset>        → Groups controls
+│   ├── <legend>          → Fieldset title
+│   ├── <datalist>        → Input suggestions
+│   └── <output>          → Result/output
+│
+├── 10. 🎛️ INPUT TYPES
+│   ├── text
+│   ├── password
+│   ├── email
+│   ├── number
+│   ├── tel
+│   ├── url
+│   ├── search
+│   ├── date
+│   ├── time
+│   ├── datetime-local
+│   ├── month
+│   ├── week
+│   ├── checkbox
+│   ├── radio
+│   ├── file
+│   ├── range
+│   ├── color
+│   ├── hidden
+│   ├── submit
+│   ├── reset
+│   ├── button
+│   └── image
+│
+├── 11. 🏠 SEMANTIC PAGE LAYOUT
+│   ├── <header>          → Header area
+│   ├── <nav>             → Navigation
+│   ├── <main>            → Main content
+│   ├── <section>         → Thematic section
+│   ├── <article>         → Independent content
+│   ├── <aside>           → Related content
+│   ├── <footer>          → Footer area
+│   └── <address>         → Contact information
+│
+├── 12. 🎵 AUDIO / VIDEO
+│   ├── <audio>
+│   ├── <video>
+│   ├── <source>
+│   └── <track>
+│
+├── 13. 🌐 EMBEDDED CONTENT
+│   ├── <iframe>          → Embedded page
+│   ├── <embed>           → Embedded resource
+│   ├── <object>          → External object
+│   └── <param>           → Legacy object parameter
+│
+├── 14. 🖼️ IMAGE MAPS
+│   ├── <map>             → Image map
+│   └── <area>            → Clickable area
+│
+├── 15. 🎨 GRAPHICS
+│   ├── <canvas>          → Drawing surface
+│   └── <svg>             → Vector graphics
+│
+├── 16. 💻 PROGRAMMING TEXT
+│   ├── <code>            → Code
+│   ├── <pre>             → Preformatted text
+│   ├── <kbd>             → Keyboard input
+│   ├── <samp>            → Program output
+│   └── <var>             → Variable
+│
+├── 17. 💬 QUOTES & SEMANTIC TEXT
+│   ├── <blockquote>      → Long quote
+│   ├── <q>               → Short quote
+│   ├── <cite>            → Title of a work/reference
+│   ├── <abbr>            → Abbreviation
+│   ├── <dfn>             → Defining a term
+│   ├── <time>            → Date/time
+│   └── <data>            → Human text + machine value
+│
+├── 18. 🌍 LANGUAGE & TEXT DIRECTION
+│   ├── <bdi>             → Direction isolation
+│   ├── <bdo>             → Direction override
+│   ├── <ruby>            → Ruby annotation
+│   ├── <rt>              → Ruby text
+│   ├── <rp>              → Ruby fallback
+│   └── <wbr>             → Optional word break
+│
+├── 19. 📂 INTERACTIVE ELEMENTS
+│   ├── <details>         → Expand/collapse
+│   ├── <summary>         → Details heading
+│   └── <dialog>          → Dialog box
+│
+├── 20. 📈 STATUS / MEASUREMENT
+│   ├── <progress>        → Task progress
+│   └── <meter>           → Measurement
+│
+├── 21. 🧩 TEMPLATES / WEB COMPONENTS
+│   ├── <template>        → Reusable markup
+│   └── <slot>            → Content insertion point
+│
+├── 22. 🏷️ GLOBAL ATTRIBUTES
+│   ├── id
+│   ├── class
+│   ├── style
+│   ├── title
+│   ├── lang
+│   ├── dir
+│   ├── hidden
+│   ├── tabindex
+│   ├── contenteditable
+│   ├── draggable
+│   ├── spellcheck
+│   ├── translate
+│   ├── inert
+│   ├── accesskey
+│   ├── data-*
+│   └── role / aria-*
+│
+├── 23. 🔗 LINK ATTRIBUTES
+│   ├── href
+│   ├── target
+│   ├── rel
+│   ├── download
+│   ├── hreflang
+│   ├── type
+│   └── referrerpolicy
+│
+├── 24. 🖼️ IMAGE ATTRIBUTES
+│   ├── src
+│   ├── alt
+│   ├── width
+│   ├── height
+│   ├── srcset
+│   ├── sizes
+│   ├── loading
+│   ├── decoding
+│   └── usemap
+│
+├── 25. 📝 FORM ATTRIBUTES
+│   ├── action
+│   ├── method
+│   ├── enctype
+│   ├── target
+│   ├── autocomplete
+│   ├── novalidate
+│   ├── name
+│   ├── value
+│   ├── placeholder
+│   ├── required
+│   ├── readonly
+│   ├── disabled
+│   ├── checked
+│   ├── selected
+│   ├── multiple
+│   ├── min / max
+│   ├── minlength / maxlength
+│   ├── step
+│   ├── pattern
+│   ├── accept
+│   └── autofocus
+│
+├── 26. 🎵 MEDIA ATTRIBUTES
+│   ├── controls
+│   ├── autoplay
+│   ├── muted
+│   ├── loop
+│   ├── preload
+│   ├── poster
+│   ├── playsinline
+│   └── crossorigin
+│
+├── 27. 📁 PATHS & URLs
+│   ├── Relative path
+│   ├── Root-relative path
+│   ├── Absolute URL
+│   ├── Fragment URL
+│   └── Query string
+│
+├── 28. 💬 COMMENTS & CHARACTER REFERENCES
+│   ├── <!-- Comment -->
+│   ├── &lt;
+│   ├── &gt;
+│   ├── &amp;
+│   ├── &quot;
+│   ├── &apos;
+│   └── &nbsp;
+│
+├── 29. ♿ ACCESSIBILITY
+│   ├── Semantic HTML
+│   ├── Heading order
+│   ├── alt text
+│   ├── Form labels
+│   ├── Table scope
+│   ├── Keyboard access
+│   ├── Focus order
+│   ├── lang attribute
+│   └── ARIA basics
+│
+├── 30. 🔍 SEO / SOCIAL METADATA
+│   ├── <title>
+│   ├── Meta description
+│   ├── Robots
+│   ├── Canonical URL
+│   ├── Open Graph
+│   ├── Twitter/X card metadata
+│   ├── Favicon
+│   └── Structured data concept
+│
+├── 31. 📱 RESPONSIVE HTML
+│   ├── viewport meta
+│   ├── <picture>
+│   ├── <source>
+│   ├── srcset
+│   └── sizes
+│
+├── 32. ⚙️ CSS / JAVASCRIPT INTEGRATION
+│   ├── <link>
+│   ├── <style>
+│   ├── <script>
+│   ├── defer
+│   ├── async
+│   ├── type="module"
+│   └── <noscript>
+│
+├── 33. 🔒 SECURITY-RELATED HTML BASICS
+│   ├── rel="noopener"
+│   ├── rel="noreferrer"
+│   ├── sandbox on <iframe>
+│   ├── referrerpolicy
+│   ├── integrity
+│   └── crossorigin
+│
+├── 34. 📦 VOID ELEMENTS
+│   ├── <area>
+│   ├── <base>
+│   ├── <br>
+│   ├── <col>
+│   ├── <embed>
+│   ├── <hr>
+│   ├── <img>
+│   ├── <input>
+│   ├── <link>
+│   ├── <meta>
+│   ├── <source>
+│   ├── <track>
+│   └── <wbr>
+│
+├── 35. 🧠 CONTENT / PARSING TYPES
+│   ├── Normal elements
+│   ├── Void elements
+│   ├── RCDATA
+│   │   ├── <title>
+│   │   └── <textarea>
+│   ├── Raw text
+│   │   ├── <style>
+│   │   └── <script>
+│   └── Foreign content
+│       ├── SVG
+│       └── MathML
+│
+├── 36. 🧮 MATH / FOREIGN CONTENT
+│   ├── <svg>             → SVG namespace
+│   └── <math>            → MathML
+│
+└── 37. 📚 IMPORTANT HTML CONCEPTS
+    ├── Tags vs Elements
+    ├── Opening tag
+    ├── Closing tag
+    ├── Nesting
+    ├── Parent / Child
+    ├── Sibling elements
+    ├── Block vs inline concept
+    ├── Semantic vs non-semantic
+    ├── Boolean attributes
+    ├── Global vs element-specific attributes
+    ├── DOM introduction
+    ├── Validation
+    ├── Deprecated / obsolete elements
+    └── Browser compatibility
